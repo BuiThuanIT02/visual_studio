@@ -10,6 +10,7 @@ namespace WebApplication1.Controllers
     {
         public IActionResult Index()
         {
+            Console.Write("Helllo world");
             return View();
         }
     }
